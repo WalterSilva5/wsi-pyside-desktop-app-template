@@ -1,0 +1,1 @@
+# wsi-pyside-desktop-app-template
