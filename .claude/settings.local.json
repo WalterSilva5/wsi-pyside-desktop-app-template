@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(wc:*)",
+      "WebFetch(domain:docs.astral.sh)"
+    ]
+  }
+}

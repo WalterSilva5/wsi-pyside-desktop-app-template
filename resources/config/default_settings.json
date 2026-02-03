@@ -1,0 +1,33 @@
+{
+  "app": {
+    "name": "PySide6 App Template",
+    "version": "1.0.0",
+    "language": "en",
+    "author": "Walter Pereira Da Silva"
+  },
+  "window": {
+    "width": 1200,
+    "height": 800,
+    "min_width": 800,
+    "min_height": 600,
+    "remember_size": true,
+    "remember_position": true
+  },
+  "theme": {
+    "current": "light",
+    "follow_system": false
+  },
+  "sidebar": {
+    "collapsed": false,
+    "width": 250
+  },
+  "logging": {
+    "level": "INFO",
+    "file_enabled": true,
+    "console_enabled": true
+  },
+  "navigation": {
+    "default_page": "home",
+    "remember_last_page": true
+  }
+}
