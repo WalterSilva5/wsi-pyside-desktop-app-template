@@ -1,16 +1,13 @@
 """
-Data models module.
+Módulo de modelos compartilhados.
 
-Contains data models and repository implementations
-for data access and persistence.
+Contém a classe base `BaseModel` e as abstrações de repositório
+reutilizáveis por todas as features. Modelos específicos de cada
+feature devem ficar dentro de `src/features/<feature>/models/`.
 """
 
 from src.models.base import BaseModel
-from src.models.user import User
-from src.models.settings import AppSettings
 
 __all__ = [
     "BaseModel",
-    "User",
-    "AppSettings",
 ]

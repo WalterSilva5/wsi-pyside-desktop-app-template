@@ -1,17 +1,13 @@
 """
-Repository implementations module.
+Módulo de repositórios compartilhados.
 
-Contains repository pattern implementations
-for data access abstraction.
+Contém as abstrações base do padrão Repository que podem ser
+reutilizadas por repositórios específicos de cada feature.
 """
 
 from src.models.repositories.base import BaseRepository, JsonFileRepository
-from src.models.repositories.user_repository import UserRepository
-from src.models.repositories.settings_repository import SettingsRepository
 
 __all__ = [
     "BaseRepository",
     "JsonFileRepository",
-    "UserRepository",
-    "SettingsRepository",
 ]

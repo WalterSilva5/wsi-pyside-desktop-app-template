@@ -25,6 +25,7 @@ class PageId(Enum):
     HOME = auto()
     SETTINGS = auto()
     SHOWCASE = auto()
+    DASHBOARD = auto()
     RESPONSIVE = auto()
 
 

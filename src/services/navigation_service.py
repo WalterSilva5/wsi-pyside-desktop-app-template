@@ -18,7 +18,7 @@ from src.core.exceptions import NavigationError
 from src.services.base import BaseService
 
 if TYPE_CHECKING:
-    from src.views.base import BasePage
+    from src.core.base_page import BasePage
 
 
 @dataclass
